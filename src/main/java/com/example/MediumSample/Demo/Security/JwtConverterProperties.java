@@ -12,4 +12,6 @@ import org.springframework.validation.annotation.Validated;
 public class JwtConverterProperties {
     private String resourceId;
     private String principalAttribute;
+    private String issuer;        // Add issuer property
+    private String audience;      // Add audience property
 }
